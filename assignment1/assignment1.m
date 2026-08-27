@@ -353,7 +353,7 @@ trapArea =
 % costs and then calculates the ROI and stores the value in a variable called
 % ROI.
 
-totalrev = (); totalco = (); ROI = (totalrev - totalco) / totalco.* 100
+totalrev = ("Input total revenues"); totalco = ("Input Total costs"); ROI = (totalrev - totalco) / totalco.* 100
 
 
 
