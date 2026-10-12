@@ -1,0 +1,15 @@
+function dayIncrease = dayComparer(SubID, D1, D2)
+
+%dayComparer is a function that will compare the days that are provided and
+%return the subject ID of who increased from the given days
+
+%the increased variable is used to hold whether the subject increased from
+%the first day provided to the 2nd day provided
+
+increased = D2 > D1;
+
+%If the value from the days did increase, dayIncrease will turn to 
+
+dayIncrease = SubID(increased);
+
+end
